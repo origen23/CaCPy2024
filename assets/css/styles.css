@@ -554,9 +554,7 @@ form button{
 }
 
 #consulta{
-  
-  left: 0;
-  top: 0;
+    
   background: url(../img/bolillas2.jpg) fixed;   
   background-size: cover;
   background-position: center;
@@ -652,6 +650,26 @@ form button{
     padding: 0.3rem 0;  
   }
 
+  .baraja {
+    
+    gap: 1.5rem;
+    max-width: 10rem;
+    margin: auto;
+  }
+  
+  .baraja img {
+    height: 25rem;
+    
+  }
+
+  
+  .form-consulta form{
+    margin: 5px;
+    padding: 10px;
+    width: 400px;  
+    
+  }
+  
   #fondo {    
     width: 100%; 
     background-size: cover;
@@ -664,25 +682,7 @@ form button{
       
   }
 
-  .baraja {
-    
-    gap: 1.5rem;
-    max-width: 10rem;
-    margin: auto;
-  }
   
-  .baraja img {
-    height: 20rem;
-    
-  }
-
-  
-  .form-consulta form{
-    margin: 5px;
-    padding: 10px;
-    width: 400px;  
-    
-  }
      
 
 }
@@ -766,12 +766,12 @@ form button{
   .baraja {
     
     gap: 0.2rem;
-    max-width: 7rem;
+    max-width: 100%;
     margin: auto;
   }
   
   .baraja img {
-    height: 15rem;
+    height: 20rem;
     
   }
 
